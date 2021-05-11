@@ -1,0 +1,1340 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0114.0916                               -->
+<workbook source-build='2020.4.1 (20204.21.0114.0916)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Remittance inflows (Inward Remittance Flows - October 2020)' inline='true' name='federated.15lx16k0tva5gv16pru101h8n8jf' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Inward Remittance Flows - October 2020' name='excel-direct.1z080bg1m17qte1cag3291u6mth5'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Knomad_Migration_data_Tableau/KNOMAD_Inward_Remittance_Flows_2020.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1z080bg1m17qte1cag3291u6mth5' name='Remittance inflows' table='[&apos;Remittance inflows$&apos;]' type='table'>
+          <columns gridOrigin='A1:AQ225:no:A1:AQ225:0' header='yes' outcome='2'>
+            <column datatype='string' name='Migrant remittance inflows (US$ million)' ordinal='0' />
+            <column datatype='real' name='1980' ordinal='1' />
+            <column datatype='real' name='1981' ordinal='2' />
+            <column datatype='real' name='1982' ordinal='3' />
+            <column datatype='real' name='1983' ordinal='4' />
+            <column datatype='real' name='1984' ordinal='5' />
+            <column datatype='real' name='1985' ordinal='6' />
+            <column datatype='real' name='1986' ordinal='7' />
+            <column datatype='real' name='1987' ordinal='8' />
+            <column datatype='real' name='1988' ordinal='9' />
+            <column datatype='real' name='1989' ordinal='10' />
+            <column datatype='real' name='1990' ordinal='11' />
+            <column datatype='real' name='1991' ordinal='12' />
+            <column datatype='real' name='1992' ordinal='13' />
+            <column datatype='real' name='1993' ordinal='14' />
+            <column datatype='real' name='1994' ordinal='15' />
+            <column datatype='real' name='1995' ordinal='16' />
+            <column datatype='real' name='1996' ordinal='17' />
+            <column datatype='real' name='1997' ordinal='18' />
+            <column datatype='real' name='1998' ordinal='19' />
+            <column datatype='real' name='1999' ordinal='20' />
+            <column datatype='real' name='2000' ordinal='21' />
+            <column datatype='real' name='2001' ordinal='22' />
+            <column datatype='real' name='2002' ordinal='23' />
+            <column datatype='real' name='2003' ordinal='24' />
+            <column datatype='real' name='2004' ordinal='25' />
+            <column datatype='real' name='2005' ordinal='26' />
+            <column datatype='real' name='2006' ordinal='27' />
+            <column datatype='real' name='2007' ordinal='28' />
+            <column datatype='real' name='2008' ordinal='29' />
+            <column datatype='real' name='2009' ordinal='30' />
+            <column datatype='real' name='2010' ordinal='31' />
+            <column datatype='real' name='2011' ordinal='32' />
+            <column datatype='real' name='2012' ordinal='33' />
+            <column datatype='real' name='2013' ordinal='34' />
+            <column datatype='real' name='2014' ordinal='35' />
+            <column datatype='real' name='2015' ordinal='36' />
+            <column datatype='real' name='2016' ordinal='37' />
+            <column datatype='real' name='2017' ordinal='38' />
+            <column datatype='real' name='2018' ordinal='39' />
+            <column datatype='real' name='2019' ordinal='40' />
+            <column datatype='real' name='2020e' ordinal='41' />
+            <column datatype='string' name='Remittances as a share of GDP in 2020e (%)' ordinal='42' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1z080bg1m17qte1cag3291u6mth5' name='Remittance inflows' table='[&apos;Remittance inflows$&apos;]' type='table'>
+          <columns gridOrigin='A1:AQ225:no:A1:AQ225:0' header='yes' outcome='2'>
+            <column datatype='string' name='Migrant remittance inflows (US$ million)' ordinal='0' />
+            <column datatype='real' name='1980' ordinal='1' />
+            <column datatype='real' name='1981' ordinal='2' />
+            <column datatype='real' name='1982' ordinal='3' />
+            <column datatype='real' name='1983' ordinal='4' />
+            <column datatype='real' name='1984' ordinal='5' />
+            <column datatype='real' name='1985' ordinal='6' />
+            <column datatype='real' name='1986' ordinal='7' />
+            <column datatype='real' name='1987' ordinal='8' />
+            <column datatype='real' name='1988' ordinal='9' />
+            <column datatype='real' name='1989' ordinal='10' />
+            <column datatype='real' name='1990' ordinal='11' />
+            <column datatype='real' name='1991' ordinal='12' />
+            <column datatype='real' name='1992' ordinal='13' />
+            <column datatype='real' name='1993' ordinal='14' />
+            <column datatype='real' name='1994' ordinal='15' />
+            <column datatype='real' name='1995' ordinal='16' />
+            <column datatype='real' name='1996' ordinal='17' />
+            <column datatype='real' name='1997' ordinal='18' />
+            <column datatype='real' name='1998' ordinal='19' />
+            <column datatype='real' name='1999' ordinal='20' />
+            <column datatype='real' name='2000' ordinal='21' />
+            <column datatype='real' name='2001' ordinal='22' />
+            <column datatype='real' name='2002' ordinal='23' />
+            <column datatype='real' name='2003' ordinal='24' />
+            <column datatype='real' name='2004' ordinal='25' />
+            <column datatype='real' name='2005' ordinal='26' />
+            <column datatype='real' name='2006' ordinal='27' />
+            <column datatype='real' name='2007' ordinal='28' />
+            <column datatype='real' name='2008' ordinal='29' />
+            <column datatype='real' name='2009' ordinal='30' />
+            <column datatype='real' name='2010' ordinal='31' />
+            <column datatype='real' name='2011' ordinal='32' />
+            <column datatype='real' name='2012' ordinal='33' />
+            <column datatype='real' name='2013' ordinal='34' />
+            <column datatype='real' name='2014' ordinal='35' />
+            <column datatype='real' name='2015' ordinal='36' />
+            <column datatype='real' name='2016' ordinal='37' />
+            <column datatype='real' name='2017' ordinal='38' />
+            <column datatype='real' name='2018' ordinal='39' />
+            <column datatype='real' name='2019' ordinal='40' />
+            <column datatype='real' name='2020e' ordinal='41' />
+            <column datatype='string' name='Remittances as a share of GDP in 2020e (%)' ordinal='42' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AQ225:no:A1:AQ225:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Migrant remittance inflows (US$ million)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Migrant remittance inflows (US$ million)]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>Migrant remittance inflows (US$ million)</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1980</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1980]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>1980</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1981</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1981]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>1981</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1982</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1982]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>1982</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1983</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1983]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>1983</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1984</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1984]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>1984</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1985</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1985]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>1985</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1986</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1986]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>1986</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1987</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1987]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>1987</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1988</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1988]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>1988</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1989</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1989]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>1989</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1990</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1990]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>1990</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1991</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1991]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>1991</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1992</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1992]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>1992</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1993</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1993]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>1993</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1994</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1994]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>1994</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1995</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1995]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>1995</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1996</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1996]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>1996</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1997</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1997]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>1997</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1998</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1998]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>1998</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1999</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1999]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>1999</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2000</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2000]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>2000</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2001</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2001]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>2001</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2002</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2002]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>2002</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2003</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2003]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>2003</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2004</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2004]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>2004</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2005</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2005]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>2005</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2006</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2006]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>2006</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2007</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2007]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>2007</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2008</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2008]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>2008</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2009</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2009]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>2009</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2010</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2010]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>2010</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2011</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2011]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>2011</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2012]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>2012</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2013</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2013]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>2013</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2014</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2014]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>2014</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2015</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2015]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>2015</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2016]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>2016</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2017</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2017]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>2017</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2018</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2018]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>2018</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2019</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2019]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>2019</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2020e</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2020e]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>2020e</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Remittances as a share of GDP in 2020e (%)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Remittances as a share of GDP in 2020e (%)]</local-name>
+            <parent-name>[Remittance inflows]</parent-name>
+            <remote-alias>Remittances as a share of GDP in 2020e (%)</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='2020E' datatype='real' name='[2020e]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Remittance inflows' datatype='table' name='[__tableau_internal_object_id__].[Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Remittance inflows' id='Remittance inflows_72B0EA946CD541F3811BE3DCE93E4488'>
+            <properties context=''>
+              <relation connection='excel-direct.1z080bg1m17qte1cag3291u6mth5' name='Remittance inflows' table='[&apos;Remittance inflows$&apos;]' type='table'>
+                <columns gridOrigin='A1:AQ225:no:A1:AQ225:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Migrant remittance inflows (US$ million)' ordinal='0' />
+                  <column datatype='real' name='1980' ordinal='1' />
+                  <column datatype='real' name='1981' ordinal='2' />
+                  <column datatype='real' name='1982' ordinal='3' />
+                  <column datatype='real' name='1983' ordinal='4' />
+                  <column datatype='real' name='1984' ordinal='5' />
+                  <column datatype='real' name='1985' ordinal='6' />
+                  <column datatype='real' name='1986' ordinal='7' />
+                  <column datatype='real' name='1987' ordinal='8' />
+                  <column datatype='real' name='1988' ordinal='9' />
+                  <column datatype='real' name='1989' ordinal='10' />
+                  <column datatype='real' name='1990' ordinal='11' />
+                  <column datatype='real' name='1991' ordinal='12' />
+                  <column datatype='real' name='1992' ordinal='13' />
+                  <column datatype='real' name='1993' ordinal='14' />
+                  <column datatype='real' name='1994' ordinal='15' />
+                  <column datatype='real' name='1995' ordinal='16' />
+                  <column datatype='real' name='1996' ordinal='17' />
+                  <column datatype='real' name='1997' ordinal='18' />
+                  <column datatype='real' name='1998' ordinal='19' />
+                  <column datatype='real' name='1999' ordinal='20' />
+                  <column datatype='real' name='2000' ordinal='21' />
+                  <column datatype='real' name='2001' ordinal='22' />
+                  <column datatype='real' name='2002' ordinal='23' />
+                  <column datatype='real' name='2003' ordinal='24' />
+                  <column datatype='real' name='2004' ordinal='25' />
+                  <column datatype='real' name='2005' ordinal='26' />
+                  <column datatype='real' name='2006' ordinal='27' />
+                  <column datatype='real' name='2007' ordinal='28' />
+                  <column datatype='real' name='2008' ordinal='29' />
+                  <column datatype='real' name='2009' ordinal='30' />
+                  <column datatype='real' name='2010' ordinal='31' />
+                  <column datatype='real' name='2011' ordinal='32' />
+                  <column datatype='real' name='2012' ordinal='33' />
+                  <column datatype='real' name='2013' ordinal='34' />
+                  <column datatype='real' name='2014' ordinal='35' />
+                  <column datatype='real' name='2015' ordinal='36' />
+                  <column datatype='real' name='2016' ordinal='37' />
+                  <column datatype='real' name='2017' ordinal='38' />
+                  <column datatype='real' name='2018' ordinal='39' />
+                  <column datatype='real' name='2019' ordinal='40' />
+                  <column datatype='real' name='2020e' ordinal='41' />
+                  <column datatype='string' name='Remittances as a share of GDP in 2020e (%)' ordinal='42' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Remittance Inflows 1980'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Migrant remittance inflows (US$ million) 1980</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Remittance inflows (Inward Remittance Flows - October 2020)' name='federated.15lx16k0tva5gv16pru101h8n8jf' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15lx16k0tva5gv16pru101h8n8jf'>
+            <column datatype='real' name='[1980]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Migrant remittance inflows (US$ million)]' role='dimension' type='nominal' />
+            <column-instance column='[Migrant remittance inflows (US$ million)]' derivation='None' name='[none:Migrant remittance inflows (US$ million):nk]' pivot='key' type='nominal' />
+            <column-instance column='[1980]' derivation='Sum' name='[sum:1980:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15lx16k0tva5gv16pru101h8n8jf].[none:Migrant remittance inflows (US$ million):nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Migrant remittance inflows (US$ million):nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Migrant remittance inflows (US$ million):nk]' member='&quot;Low-and Middle-Income Countries&quot;' />
+                <groupfilter function='member' level='[none:Migrant remittance inflows (US$ million):nk]' member='&quot;World&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.15lx16k0tva5gv16pru101h8n8jf].[none:Migrant remittance inflows (US$ million):nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.15lx16k0tva5gv16pru101h8n8jf].[sum:1980:qk]' palette='gray_warm_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.15lx16k0tva5gv16pru101h8n8jf].[sum:1980:qk]' />
+              <color column='[federated.15lx16k0tva5gv16pru101h8n8jf].[sum:1980:qk]' />
+              <text column='[federated.15lx16k0tva5gv16pru101h8n8jf].[none:Migrant remittance inflows (US$ million):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='auto' />
+                <format attr='vertical-align' value='auto' />
+                <format attr='wrap' value='auto' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-style' value='normal' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='8' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{20F7EE1E-0870-461B-AD24-E217DEA08C60}' />
+    </worksheet>
+    <worksheet name='Remittance Inflows 2020'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Migrant remittance inflows (US$ million) 2020</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Remittance inflows (Inward Remittance Flows - October 2020)' name='federated.15lx16k0tva5gv16pru101h8n8jf' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15lx16k0tva5gv16pru101h8n8jf'>
+            <column caption='2020E' datatype='real' name='[2020e]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Migrant remittance inflows (US$ million)]' role='dimension' type='nominal' />
+            <column-instance column='[Migrant remittance inflows (US$ million)]' derivation='None' name='[none:Migrant remittance inflows (US$ million):nk]' pivot='key' type='nominal' />
+            <column-instance column='[2020e]' derivation='Sum' name='[sum:2020e:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15lx16k0tva5gv16pru101h8n8jf].[none:Migrant remittance inflows (US$ million):nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Migrant remittance inflows (US$ million):nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Migrant remittance inflows (US$ million):nk]' member='&quot;Low-and Middle-Income Countries&quot;' />
+                <groupfilter function='member' level='[none:Migrant remittance inflows (US$ million):nk]' member='&quot;World&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.15lx16k0tva5gv16pru101h8n8jf].[none:Migrant remittance inflows (US$ million):nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.15lx16k0tva5gv16pru101h8n8jf].[sum:2020e:qk]' num-steps='5' palette='gray_warm_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.15lx16k0tva5gv16pru101h8n8jf].[sum:2020e:qk]' />
+              <color column='[federated.15lx16k0tva5gv16pru101h8n8jf].[sum:2020e:qk]' />
+              <text column='[federated.15lx16k0tva5gv16pru101h8n8jf].[none:Migrant remittance inflows (US$ million):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-style' value='normal' />
+                <format attr='font-weight' value='bold' />
+                <format attr='text-decoration' value='none' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A0A52E42-396E-4CCF-A269-2B6CAABEF1CA}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Remittance Inflows 1980'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.15lx16k0tva5gv16pru101h8n8jf].[sum:1980:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B1556299-7373-4098-B165-FBBAA24345E8}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Remittance Inflows 2020'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.15lx16k0tva5gv16pru101h8n8jf].[sum:2020e:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.15lx16k0tva5gv16pru101h8n8jf].[none:Migrant remittance inflows (US$ million):nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{96163D34-5449-402E-BD48-0EB42447F283}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Remittance Inflows 1980' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAWpklEQVR4nO3d6XMc953f8Xd3D+Y+MRgcgxsgARI8JN6SLWttSTQpiXLW3vWuN5vkQSpP
+      8iSVZ/s/bG1tVbZSlUqlKltJqrLexLteH5TkleSSLJGiREq8AJAgcRL3AJh7BnP0sQ9AQaZI
+      SpBNYDjs7+sJB9M9/ft1sz/Tv193/3oUy7IshLAptdYVEKKWJADC1iQAwtYkAMLWJADC1hwP
+      m/A3f/WXLC0s7mRdnkgvnjrF5O1bta5G3QmGQnT39jA3M7Ot5Tw0APNzc8xuc+F2kE6lWFpc
+      qHU16k65XCLS2MjqSmJby5EmkLA1CYCwNQmAsLUtBUDTHDx95Agtra10dHXdM83lcrNrYHBb
+      Kvckam5p5VvfeYHjz36ThoaGr5zf6XLR09d/3/stbW3sO3AQRVEe+Lm29g5cbvfm37HmZp77
+      9gscOfEMmuOhXb/HlqqqHHj6MIeOHifc2Pj5BEWhLd6BoigoikJ7Zxeq+vlu3dnTe8/fX7Sl
+      LaE5NAb3DtHV00tbWxtv/PIX7B7cg16tcv3qFTq7u2mMRrl86RL7Dh7kyieXfvc1fcKFIxFS
+      a2vM3pkBReHoiWdRNZXZmWlMw0RzOHA4HDS3tmIaBoVCgcPHjmPo+sZnYPM/2u8P4PZ4iHd0
+      4PP5WVlepnfXLuZnZ4k2NbFrYJC5OzNMTYwTjjQyNzNNKBIh3t6Oy+0hEolwc3SEvt0DuN1u
+      xkZHSKdSNd5CD6aoKk6Xi9HrVzl46AizM9M0t7ZyZ2qKaCyGYRpUKmUAItEond29rCaWOXjo
+      CMFQiKX5eTp7elleXMA0TWLNzZTWS1tvApmmye2bN7j08Udk0mk8Hg979+8nEAhiWRaBYJDB
+      ob04NG3bNsITQYHGpiZa2uL09u9iJbFEtVzBMAy6e/toi8dxODRSa2vous56scD05MTmzg/g
+      9ngIhyOUyyWiTU3E4x3Mz97B0dCAw+FgYO9edF1n5NoVmltaN480+58+RHdvH9lMlqcOHSYY
+      DtPR2YXL5WLi9i06u3tqtFG2JtzYyL6DT7MwN4vH68Xl9hDv7CIQDNLbv4tCLk8k2kSkMUql
+      XCafy7G8uMDYyAgNTicNDU66enoJhkLMz87iDwa/Xh+gWCzS3NJCR2cnhmGwsrwMd4/AVz/9
+      hD944UVujAxvx7o/OayN7ZjPZSmtr9MUayYUCVMsFFBUhWq1SqVcIRKNEggGyefyuD0egqEw
+      4UgEUGiMRimV1ink87S0xilXymSzWeLtHSwtLFApl1EUhdZ4OxYWhmECcGP4OonlJdxuN5lM
+      mts3b7K6ksDj8RJv76BYLBCORB7arKq1dDLJpx9fYHZmmmhTjJWlJUzTIJ/Lkc1kiNxtGqWT
+      SWCj+VMul4m1tBBtipFKrlKplLEsC8PQMU1ja02gaqXCu2+/RSqZRNM0VldWKBaLlMtl1lZX
+      SafShCNh7kxPUygUtm8LPAFm78wQK62jKirpZJKevj68Pj+ffZMszM/hdm203W8MD5NcW2Xk
+      6lWcTid9u3dz8cPzJNfWWEkkqFYqG0dgLPRqlWtXPiXSGOXKJ5cwDINwOML05ASmaTB3ZwbT
+      spi7M4Pb4+Hih+cJBEOUy2XAYiWxTGJ5mWAwWLuN8yUM3WBsdATT/CzM13C53CwtzgMK1UqZ
+      BqeTwu1bmJZFcm2VVHINRVHwB4JMjt/CHwiytLCArlepVipM3BpDedh4gL/4z//pa10Ia4rF
+      KBQKrBeLj2SFnxR/9Kc/YvT61QdOczgcRGMxSuslCvkcgWCIVDJJQ4MDRVGoVCqb86qqiqOh
+      gUq5/EjrpygKHq+X4mP2xRVpbGRgz14mb49tazmP7HTA6srKo1qUbei6zvLi57ebpJJrAFSr
+      1fvmNU3zke/8AJZlPXY7/06S6wDC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLW
+      JADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQA
+      wtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLW
+      JADC1iQAwtYkAMLWJADC1iQAwtYe2S/FiwdrcDo58c3nal2NuuP1+igW8ttejgRgm+nVKqNj
+      N2pdjboTikRo7+za9nIkADvAMIxaV6Hu7NQ2kz6AsDUJgLA1CYCwNekD7DCn08XeAwdwuVxM
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Remittance Inflows 2020' width='192'>
+      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
+      GJ1ev+h7gf4/T/7A0Ii3HZMAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
